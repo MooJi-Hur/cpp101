@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.h": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "editor.formatOnSave": true,
+    "cmake.configureOnOpen": true,
+    "C_Cpp.clang_format_style": "file", // 프로젝트 내의 .clang-format 파일을 사용하도록 설정
+    "C_Cpp.clang_format_fallbackStyle": "Google" // .clang-format 파일이 없을 경우 Google 스타일 사용
+}
