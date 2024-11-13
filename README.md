@@ -1,5 +1,5 @@
 # cpp101
-2024. 11. 06. ~ C++ 기초
+`2024. 11. 06. ~ 2024. 11. 13` C++ 기초
 
 ## Table of Contents
 
@@ -16,13 +16,6 @@
 11. STL Sequence Containers
 12. STL Associative Containers
 13. Exception Handling
-14. Introduction to Socket Programming
-15. Socket Functions and Winsock2
-16. TCP Echo Program
-17. Visual Studio and GitHub Integration
-18. Boost.Asio Overview and Installation
-19. Basic Use of Boost.Asio
-20. Synchronous TCP Communication with Boost.Asio
 
 ## Requirements
 
@@ -37,22 +30,26 @@
 ## Folder Structure
 ```
 .
-├── CMakeLists.txt         # Build system configuration
-├── README.md              # Project documentation
+├── CMakeLists.txt
+├── CMakePresets.json
+├── README.md
 ├── docs
-│   └── lecture_notes.md   # Additional lecture notes
-├── include                # Header files for each lecture
-│   ├── lecture_1_comparison
-│   ├── lecture_2_classes
-│   ├── lecture_3_constructors
-│   ├── ...
-│   └── lecture_20_boost_asio_sync_tcp
-├── lib                    # Libraries required by the project
-├── setup.sh               # Script to set up the environment
-└── src                    # Source files for each lecture
-    ├── lecture_1_comparison
-    ├── lecture_2_classes
-    ├── lecture_3_constructors
-    ├── ...
-    └── lecture_20_boost_asio_sync_tcp
+│   └── lecture_notes.md
+├── include
+│   └── lecture_01_comparison
+│      ├── demonstrate_namespace.h
+│      └── hello_world.h
+├── lib
+├── setup.sh
+└── src
+    ├── lecture_01_comparison
+    │   ├── demonstrate_namespace.cpp
+    │   ├── hello_world.cpp
+    │   └── main.cpp
+    ├── lecture_02_classes
+    │   └── main.cpp
+    ├── lecture_03_constructors
+    |...
+    └── llecture_13_exception_handling
+
 ```

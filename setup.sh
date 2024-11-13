@@ -19,13 +19,6 @@ do
         11) lecture_name="stl_sequence_containers" ;; # 11강: STL 시퀀스 컨테이너
         12) lecture_name="stl_associative_containers" ;; # 12강: STL 연관 컨테이너
         13) lecture_name="exception_handling" ;; # 13강: 예외처리
-        14) lecture_name="socket_overview" ;;    # 14강: 소켓프로그래밍 개요
-        15) lecture_name="socket_functions" ;;   # 15강: 소켓 함수와 Winsock2
-        16) lecture_name="tcp_echo" ;;           # 16강: TCP 에코 통신
-        17) lecture_name="github_integration" ;; # 17강: GitHub 연동
-        18) lecture_name="boost_asio_overview" ;; # 18강: Boost.Asio 개요 및 설치
-        19) lecture_name="boost_asio_basic" ;;   # 19강: Boost.Asio 기본적인 사용법
-        20) lecture_name="boost_asio_sync_tcp" ;; # 20강: 동기식 TCP 통신 예제
     esac
 
     # 각 강의별로 소스 파일과 헤더 파일 디렉토리 생성
